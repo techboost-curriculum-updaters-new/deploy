@@ -4,6 +4,9 @@ cd ~
 
 sudo yum -y update
 
+# install mbstring
+sudo yum -y install php-mbstring
+
 # uninstall MariaDB, install MySQL 5.7
 sudo service mariadb stop
 sudo yum -y erase mariadb-config mariadb-common mariadb-libs mariadb
