@@ -105,7 +105,7 @@ sudo chmod g+rx ${HOME}
 sudo usermod -aG $(whoami) nginx
 
 # install Let's Encrypt certbot
-sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y
+sudo yum install https://dl.fedoraproject.org/pub/archive/epel/7/x86_64/Packages/e/epel-release-7-14.noarch.rpm -y
 sudo yum install -y certbot python-certbot-nginx
 
 # start processes
